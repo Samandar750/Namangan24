@@ -147,7 +147,6 @@ header {
     background-color: #F6F6F9;
     min-width: 1250px;
     padding-bottom: 25px;
-    height: 3000px;
 }
 
 .container {
@@ -250,9 +249,68 @@ aside {
     margin-top: 20px;
 }
 
+/* HEADER section end */
+
 /* MAIN section start */
 
 main {
     min-width: 1250px;
 }
 
+/* COVID-19 section start */
+
+.covid19 {
+    width: 1250px;
+    /* height: 133px; */
+    background: #F6F6F9;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 20px 70px 20px 35px;
+}
+
+.covid-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.covid-item {
+    display: flex;
+    align-items: center;
+    width: 22%;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.covid-item:nth-child(2) {
+    border-left: 1px solid red;
+}
+
+.covid-item:nth-child(3) {
+    border-left: 1px solid rgb(5, 182, 5);
+}
+
+.covid-item:nth-child(4) {
+    border-left: 1px solid #000;
+}
+
+.covid-item>img {
+    margin-right: 25px;
+}
+
+.covid-heading {
+    width: 34%;
+}
+
+.covid-text>p {
+    margin: 0;
+    line-height: 30px;
+}
+
+.covid-index {
+    font-weight: bold;
+}
+
+/* COVID-19 section end */
+
+/* MAIN section end */
