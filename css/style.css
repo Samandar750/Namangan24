@@ -1,0 +1,258 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Black.woff2') format('woff2'),
+    url('../fonts/Rubik-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Bold.woff2') format('woff2'),
+    url('../fonts/Rubik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-BlackItalic.woff2') format('woff2'),
+    url('../fonts/Rubik-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Italic.woff2') format('woff2'),
+    url('../fonts/Rubik-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-ExtraBoldItalic.woff2') format('woff2'),
+    url('../fonts/Rubik-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-BoldItalic.woff2') format('woff2'),
+    url('../fonts/Rubik-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Rubik-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+    url('../fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Light.woff2') format('woff2'),
+    url('../fonts/Rubik-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-MediumItalic.woff2') format('woff2'),
+    url('../fonts/Rubik-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-SemiBold.woff2') format('woff2'),
+    url('../fonts/Rubik-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-LightItalic.woff2') format('woff2'),
+    url('../fonts/Rubik-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+    url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-SemiBoldItalic.woff2') format('woff2'),
+    url('../fonts/Rubik-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* HEADING section start */
+
+html {
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Rubik',sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #F6F6F9;
+    min-width: 1250px;
+    padding-bottom: 25px;
+    height: 3000px;
+}
+
+.container {
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.start {
+    display: flex;
+    width: 50%;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.site-name {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.site-name>a {
+    color: #295091;
+}
+
+.currency-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    width: 60%;
+}
+
+.currency-item>span {
+    padding-right: 5px;
+    color: #295091;
+    font-weight: bold;
+}
+
+.search {
+    padding: 5px 6px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    margin-left: 25px;
+}
+
+.telegram-cyan {
+    padding-right: 3px;
+}
+
+/* NAVIGATION section start */
+
+nav {
+    padding: 20px 25px;
+    margin-top: 65px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.nav-item>a {
+    color: #515151;
+    font-weight: 500;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/* MAIN section start */
+
+main {
+    min-width: 1250px;
+}
+
