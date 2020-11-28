@@ -353,4 +353,268 @@ main {
 
 /* Main news section end */
 
+/* Notification section start */
+
+.notification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    padding: 28px 34px 28px 34px;
+    background: rgba(239, 186, 84, 0.18);
+}
+
+.ntf-start {
+    display: flex;
+    align-items: center;
+}
+
+.ntf-text {
+    margin-left: 18px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.ntf-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 8px 15px 8px 15px;
+    background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+    border-radius: 5px;
+}
+
+/* Notification section */
+
+/* Last news section start */
+
+.other-news {
+    display: flex;
+}
+
+.other-name-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.last-news {
+    height: 966px;
+    width: 854px;
+    /* overflow-y: scroll; */
+    margin-bottom: 40px;
+}
+
+.last-news-box {
+    display: flex;
+    width: 854px;
+    margin-bottom: 18px;
+}
+
+.last-news-links {
+    color: black;
+}
+
+.last-news-heading {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+
+.last-news-text {
+    margin: 0;
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
+}
+
+.text-m {
+    margin-bottom: 16px;
+}
+
+.text-s {
+    margin-bottom: 34px;
+}
+
+.text-a {
+    margin-bottom: 32px;
+}
+
+.last-news-img {
+    margin-right: 20px;
+}
+
+.more-btn {
+    padding: 10px 30px;
+    background: #295093;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: 323px;
+}
+
+.popular-news {
+    width: 366px;
+    padding-left: 60px;
+    border-radius: 5px;
+}
+
+.popular-news-box {
+    height: 117px;
+    width: 336px;
+    padding: 16px 20px;
+    background: #F6F6F9;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.pnh-box {
+    height: 137px;
+}
+
+.popular-news-heading {
+    margin: 0;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+}
+
+.popular-news-text {
+    margin: 0;
+    margin-bottom: 18px;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+
+.text-h {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.ucell {
+    margin-left: -915px;
+}
+
+.ad2 {
+    margin-bottom: 40px;
+}
+
+/* Last news section start */
+
 /* MAIN section end */
+
+/* FOOTER section start */
+
+footer {
+    background-color: #295093;
+}
+
+.logo-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #133C82;
+    padding: 20px 0;
+}
+
+.logo-link {
+    color: #fff;
+    padding: 12px 9px;
+    background: #133C82;
+    border-radius: 5px;
+}
+
+.logo {
+    margin: 0;
+}
+
+.tg-side {
+    display: flex;
+    align-items: center;
+}
+
+.tg-side-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+}
+
+.tg-side-link {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+    margin-left: 20px;
+}
+
+.info-side {
+    display: flex;
+}
+
+.about {
+    width: 365px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+}
+
+.about-heading {
+    margin-top: 18px;
+}
+
+.about-list1 {
+    padding: 0;
+}
+
+.about-item1 {
+    margin-bottom: 12px;
+}
+
+.about-item1>a {
+    margin-left: 110px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.about-list2 {
+    padding: 0;
+}
+
+.about-item2 {
+    margin-bottom: 12px;
+}
+
+.about-item2>a {
+    margin-left: 115px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+/* FOOTER section end */
+
+/* PROJECT END. THANKS FOR YOUR ATTENTION! */
