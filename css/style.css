@@ -211,10 +211,16 @@ header {
     padding: 5px 10px;
     color: #fff;
     margin-left: 25px;
+    transition: background 1s ease;
 }
 
 .telegram-cyan {
     padding-right: 3px;
+}
+
+.link:hover {
+    background: rgb(55,174,226);
+    background: linear-gradient(90deg, rgba(55,174,226,1) 0%, rgba(30,150,200,1) 15%);
 }
 
 /* NAVIGATION section start */
@@ -238,6 +244,7 @@ nav {
 .nav-item>a {
     color: #515151;
     font-weight: 500;
+    transition: color 0.3s ease;
 }
 
 aside {
@@ -247,6 +254,10 @@ aside {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+}
+
+.nav-item>a:hover {
+    color: #295091;
 }
 
 /* HEADER section end */
