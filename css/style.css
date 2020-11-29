@@ -149,6 +149,10 @@ header {
     padding-bottom: 25px;
 }
 
+ul {
+    padding: 0;
+}
+
 .container {
     width: 1250px;
     margin-left: auto;
@@ -198,9 +202,64 @@ header {
 }
 
 .search {
-    padding: 5px 6px;
+    padding: 13px 14px;
     border-radius: 3px;
     background-color: #fff;
+    margin-right: 22px;
+}
+
+.dropdown {
+    position: relative;
+    padding: 10px;
+    margin: 0;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+}
+
+.ru {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.drp-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.drp-item:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.drp-text {
+    margin: 2px 3px 3px 5px;
+}
+
+.dropdown-text {
+    margin: 2px 3px 3px 5px;
+}
+
+.drp-list {
+    display: none;
+    position: absolute;
+    top: 43px;
+    left: -1px;
+}
+
+.drp-link {
+    text-decoration: none;
+    color: black;
+}
+
+.drp-link:hover .drp-list {
+    display: inline-block;
 }
 
 .link {
@@ -211,7 +270,6 @@ header {
     padding: 5px 10px;
     color: #fff;
     margin-left: 25px;
-    transition: background 1s ease;
 }
 
 .telegram-cyan {
@@ -220,7 +278,7 @@ header {
 
 .link:hover {
     background: rgb(55,174,226);
-    background: linear-gradient(90deg, rgba(55,174,226,1) 0%, rgba(30,150,200,1) 15%);
+    background: linear-gradient(270deg,  #1E96C8 15.07%, #37AEE2 85.96%);
 }
 
 /* NAVIGATION section start */
@@ -362,6 +420,10 @@ main {
     color: #6B6D97;
 }
 
+.main-news-item>a:hover .main-news-text {
+    text-decoration: underline;
+}
+
 /* Main news section end */
 
 /* Notification section start */
@@ -400,6 +462,10 @@ main {
     padding: 8px 15px 8px 15px;
     background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
     border-radius: 5px;
+}
+
+.ntf-link:hover {
+    background: linear-gradient(270deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
 }
 
 /* Notification section */
@@ -449,6 +515,11 @@ main {
     color: #434343;
 }
 
+.time-box {
+    display: flex;
+    align-items: center;
+}
+
 .text-m {
     margin-bottom: 16px;
 }
@@ -465,6 +536,10 @@ main {
     margin-right: 20px;
 }
 
+.last-news-links:hover .last-news-heading {
+    text-decoration: underline;
+}
+
 .more-btn {
     padding: 10px 30px;
     background: #295093;
@@ -474,6 +549,11 @@ main {
     font-size: 17px;
     line-height: 20px;
     margin-left: 323px;
+    transition: background-color 0.3s ease;
+}
+
+.more-btn:hover {
+    background-color: #1C5DCC;
 }
 
 .popular-news {
@@ -517,11 +597,15 @@ main {
 }
 
 .ucell {
-    margin-left: -915px;
+    margin-left: -625px;
 }
 
 .ad2 {
     margin-bottom: 40px;
+}
+
+.popular-news-link:hover .popular-news-text {
+    text-decoration: underline;
 }
 
 /* Last news section start */
